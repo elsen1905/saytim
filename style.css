@@ -1,0 +1,537 @@
+*{
+	margin:auto;
+}
+.main{
+	width: 100%;
+}
+.cover, .ikincisetr,.jobs,.boot,.problem,.creative,.passion,.team,.subs,.contact,.footer{
+	width: 100%;
+}
+.h3{
+		color:#353535;
+		font-family: tahoma;
+		font-weight: bold;
+		position: relative;
+		top: 102px;
+	}
+.line{
+		position: relative;
+		top: 133px;
+	}
+.bgcolor{
+	background-color: #242830;
+}
+.cover{
+	height: 788px;
+	background-image: url(img/hero-bg.jpg);
+	text-align: center;
+}
+	.cover h1{
+		font-family: "Century Gothic";
+		font-weight: normal;
+		display: inline-block;
+		position: relative;
+		top:278px;
+		color:#353535;
+	}
+	.cover .h{
+		color:#a1a9b0;
+	}
+	.cover h4{
+		font-family:"Century Gothic";
+		color:#a1a9b0;
+		position: relative;
+		top: 299px;
+	}
+	.cover input{
+		height: 64px;
+		width: 256px;
+		background-color:#3dc9b3;
+		border: none;
+		border-radius:5px;
+		position: relative;
+		top: 364px;
+		box-shadow: 0px 3px 0px #309383;
+		color:white;
+		font-weight: bold;
+		font-family: "Century Gothic";
+		font-size: 16px;
+		cursor:pointer;
+	}
+	.cover i{
+		font-size: 25px;
+		position: absolute;
+		top: 65px;
+		right: 113px;
+		cursor: pointer;
+	}
+.ikincisetr{
+	height: 396px;
+	background-color: #f3f5f8;
+	text-align: center;
+}
+
+	.ikincisetr p{
+		color:#8e959a;
+		width: 701px;
+		height: 44px;
+		position: relative;
+		top:180px;
+		font-family: Arimo;
+		font-size: 17px;
+	}
+	.ikincisetr b{
+		color:#3b3b3b;
+	}
+.jobs{
+	height: 725px;
+	text-align: center;
+}
+	.icon{
+		width: 100%;
+		height: 175px;
+		position: relative;
+		top: 216px;
+		text-align: left;
+	}
+
+	.icon div{
+		width: 175px;
+		height: 175px;
+		border-radius: 100%;
+		display: inline-block;
+		float: left;
+		position: relative;
+		left: 216px;
+		background-image: url(img/one.png);
+	}
+	.icon div:nth-child(2){
+		position: absolute;
+		left: 585px;
+		background-image: url(img/two.png);
+	}
+	.icon div:last-child{
+		position: absolute;
+		left: 976px;
+		background-image: url(img/three.png);
+	}
+	.m{
+		display: inline-block;
+		position: relative;
+		float: left;
+		top:250px;
+		font-family: Arimo;
+		border-bottom:4px solid #3dc9b3;
+	}
+	.m1{
+		left: 225px;
+	}
+	.m2{
+		left: 430px;
+	}
+	.m3{
+		left: 625px;
+	}
+	.jobs p{
+		display: inline-block;
+		text-align: center;
+		width: 247px;
+		height: 84px;
+		color:#bec2c5;
+		font-family: Arimo;
+		font-size: 17px;
+		float: left;
+		position: relative;
+		left: -370px;
+		top: 300px;
+	}
+	.jobs .t2{
+		left: -240px;
+	}
+	.jobs .t3{
+		left: -90px;
+	}
+.boot{
+	height: 650px;
+}
+	.boot .img{
+		width: 50%;
+		height: 650px;
+		float: left;
+		background-image: url(img/iphone-bg.png);
+		background-color: #f3f5f8;
+	}
+	.boot .text{
+		width: 50%;
+		height: 650px;
+		float: left;
+	}
+	.boot .text h3{
+		position:absolute;
+		top:2010px;
+		left: 890px;
+		font-family: Arimo;		
+	}
+	.boot .text .line{
+		left: 240px;
+		top: 151px;
+	}
+	.lorem{
+		width: 70%;
+		text-align: center;
+		font-size: 17px;
+		font-family: Arimo;
+		position: relative;
+		top: 180px;
+		left: 25px;
+		color:#bec2c5;
+	}
+	.lorem div{
+		width: 13px;
+		height: 13px;
+		border: 3px solid lightgrey;
+		border-radius: 100%;
+		background-color:transparent;
+		display: inline-block;
+	}
+	.lorem div:last-child{
+		background-color:black;
+	}
+.problem{
+	height: 315px;
+	background-image: url(img/plants-bg.jpg);
+	background-size: 100% 315px;
+	text-align: center;
+}
+	.problem h1{
+		color:white;
+		font-family: arimo;
+		font-weight: normal;
+		position: relative;
+		top: 83px;
+
+	}
+	.problem h2{
+		position: relative;
+		top: 100px;
+		color:white;
+		font-family: arimo;
+		font-weight: normal;
+	}
+	.problem i{
+		width: 55px;
+		height: 24px;
+		color:white;
+		font-size:20px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		background-color: #3cab99;
+		border-radius: 100%;
+		text-align: center;
+		position:relative;
+		top: 120px;
+	}
+.creative{
+	height: 676px;
+	text-align: center;
+}
+	.sekiller{
+		width: 100%;
+	}
+	.sekiller div{
+		height: 222px;
+		width: 360px;	
+		display: inline-block;
+		float: left;
+		position: relative;
+		top:90px;
+	}
+	.sekiller div:first-child{
+		left: 113px;
+		background-image: url(img/portfolio-01.jpg);
+		background-size: 100% 100%;
+	}
+	.sekiller div:nth-child(2){
+		left: 133px;
+		float: left;
+		background-image: url(img/portfolio-02.jpg);
+		background-size: 100% 100%;
+	}
+	.sekiller div:last-child{
+		float: right;
+		right: 113px;
+		background-image: url(img/portfolio-03.jpg);
+		background-size: 100% 100%;
+	}
+	.titles{
+		width: 100%;
+		height: 20px;
+		position: relative;
+		top: 130px;
+		display: flex;
+	}
+	.titles h3{
+		font-family: arimo;
+		border-bottom:3px solid #3dc9b3;
+	}
+	.titles h3:first-child{
+		position: absolute;
+		left: 215px;
+	}
+	.titles h3:nth-child(2){
+		position: absolute;
+		left: 585px;
+	}
+	.titles h3:last-child{
+		position: absolute;
+		left: 970px;
+	}
+	.paragh{
+		width: 100%;
+		text-align: center;
+		position: relative;	
+		top: 200px;
+	}
+	.paragh p{
+		width: 345px;
+		height: 63px;
+		font-family: arimo;
+		font-size: 18px;
+		color: #999fa4;
+		position: relative;
+		display: inline-block;
+	}
+	.paragh p:first-child{
+		float: left;
+		left: 120px;
+	}
+	.paragh p:last-child{
+		float: right;
+		right: 121px;
+	}
+	.circle{
+		width: 13px;
+		height: 13px;
+		border-radius: 100%;
+		border:2px solid lightgrey;
+		display: inline-block;
+		position: relative;
+		top: 243px;
+	}
+	.black{
+		background:black;
+	}
+.passion{
+	height: 212px;
+}
+	.passion div{
+		width: 258px;
+		height: 72px;
+		color:white;
+		font-family: arimo;
+		text-align: center;
+		font-size: 20px;
+		position: relative;
+		top: 70px;
+	}
+	.passion p{
+		margin-top: 25px;
+	}
+.team{
+	height: 872px;
+	text-align: center;
+}
+	.team h3{
+		position: relative;
+		top: 102px;
+		font-family: Arimo;		
+	}
+	.esas{
+		width: 100%;
+		position: relative;
+		top: 200px;
+	}
+	.esas .js,.lannister,.jamie{
+		width: 342px;
+		display: inline-block;
+	}
+		.profil{
+			width: 100%;
+			height: 220px;
+			position: relative;
+			text-align: center;
+		}
+		.text{
+			width: 60%;
+			height: 50px;
+			border-bottom: 3px solid #3dc9b3;
+		}
+			.text h3{
+				position: relative;
+				top: 20px;
+
+			}
+		.about{
+			width: 100%;
+			height: 160px;
+		}
+			.about p{
+				color:#acb1b4;
+				font-size: 17px;
+				position: relative;
+				font-family: arimo;
+				top:60px;
+			}
+		.sm{
+			width: 100%;
+			height: 37px;
+		}
+			.sm div{
+				display: inline-block;
+				color:white;
+				background-color: #242830;
+				border-radius: 100%;
+				font-size: 20px;
+				text-align: center;
+				width: 40px;
+				height: 40px;
+				margin-top: 10px;
+			}
+			 .sm div i{
+			 	margin-top: 10px;
+			 }
+.subs{
+	height: 444px;
+	background-image: url(img/keyboard-bg.jpg);
+	background-size: 100% 299px;
+	text-align: center;
+}
+	.subs i{
+		color:white;
+		font-size: 30px;
+		margin-top: 139px;
+		
+	}
+	.subs i:last-child{
+		width: 55px;
+		height: 50px;
+		background-color: #3dc9b3;
+		opacity: .9;
+		border-radius: 100%;
+		margin-top: 100px;
+		padding-top: 5px;
+	}
+	.subs h3{
+		color:white;
+		font-family: arimo;
+		font-weight: normal;
+		margin-top: 24px;
+	}
+	.subs form input:first-child{
+		width: 342px;
+		height: 59px;
+		border: 1px solid white;
+		background-color: transparent;
+		margin-top: 42px;
+		color:white;
+	}
+	.subs form input:last-child{
+		width: 85px;
+		height: 64px;
+		background-color: #478e87;
+		border: 1px solid #42ac9e;
+		margin-top: 42px;
+		margin-left: 3px;
+		color:white;
+		font-family: arimo;
+	}
+.contact{
+	height: 637px;
+	background-color: #f3f5f8;
+	text-align: center;
+}
+	.contactitems{
+		width: 100%;
+		height: 201px;
+		position: relative;
+		top: 190px;
+	}
+		.contactitems div{
+			width: 350px;
+			height: 201px;
+			background-color: white;
+			box-shadow: 0px 2px 0px lightgrey;
+			display: inline-block;
+			float: left;
+		}
+		.contactitems div:first-child{
+			margin-left: 128px;
+		}
+			.contactitems div i{
+				font-size: 25px;
+				margin-top: 37px;
+			}
+			.contactitems div h3{
+				color:#3dc9b3;
+				margin-top: 21px;
+				font-family: arimo;
+			}
+			.contactitems div h5{
+				color:#8c9398;
+				margin-top: 21px;
+				font-family: Euphemia;
+			}
+		.contactitems div:nth-child(2){
+			margin-left: 30px;
+		}
+		.contactitems div:last-child{
+			margin-left: 30px;
+		}
+		.socialmedia{
+			width: 100%;
+			height: 40px;
+			position: relative;
+			top: 260px;
+		}
+			.socialmedia div{
+				width: 40px;
+				height: 40px;
+				display: inline-block;
+				color:white;
+				background-color: #242830;
+				border-radius: 100%;
+				font-size: 20px;
+				text-align: center;
+				float: left;
+			}
+			.socialmedia div:first-child{
+				margin-left: 609px;
+			}
+			.socialmedia div{
+				margin-left: 14px;
+			}
+				.socialmedia div i{
+					margin-top: 10px;
+				}
+.footer{
+	height: 123px;
+}
+	.footer p{
+		color:#99a2a9;
+		float: left;
+		font-size: 17px;
+		font-family: arimo;
+		margin-top: 61px;
+		margin-left: 153px;
+	}
+	.footer p:last-child{
+		float: right;
+		margin-right: 119px;
+		color:white;
+	}
+	.footer em, span{
+		color:#99a2a9;
+	}
+	.footer p:first-child span{
+		color:white;
+	}
